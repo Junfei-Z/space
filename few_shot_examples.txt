@@ -1,0 +1,105 @@
+# Few-Shot Examples for SPACE Cloud Semantic Sketch Generation
+# These examples teach the cloud LLM to generate structured sketches from both clean and obfuscated inputs
+
+## TOURISM CATEGORY EXAMPLES
+
+Example 1 (Clean Input):
+Input: "I plan to travel solo to Tokyo for two days; help me design my itinerary."
+Sketch: Day 1: Morning – arrival and local exploration; Afternoon – museum or park; Evening – local dining. Day 2: Morning – cultural/historical visit; Afternoon – outdoor activity; Evening – local performance.
+
+Example 2 (Value Obfuscated):
+Input: "I plan to travel solo to Boston for two days; help me design my itinerary."
+Sketch: Day 1: Morning – arrival and local exploration; Afternoon – museum or park; Evening – local dining. Day 2: Morning – cultural/historical visit; Afternoon – outdoor activity; Evening – local performance.
+
+Example 3 (Category Obfuscated - Location→Person):
+Input: "I want to go to Alice for traveling with my family for 3 days."
+Sketch: Day 1: Morning – arrival and destination orientation; Afternoon – major landmark visit; Evening – family-friendly dining. Day 2: Morning – cultural/historical site tour; Afternoon – park or recreational area; Evening – local entertainment. Day 3: Morning – local market exploration; Afternoon – scenic activity; Evening – departure preparation.
+
+Example 4 (Mixed Obfuscation):
+Input: "My [DATE_TIME]_summer holiday is coming, I want to go to [PERSON]_John for traveling with [CARDINAL]_2 family members for [ORGANIZATION]_Wells Fargo days."
+Sketch: Day 1: Morning – arrival and check-in; Afternoon – destination exploration; Evening – local cuisine experience. Day 2: Morning – cultural activities; Afternoon – recreational visit; Evening – entertainment district. Day 3: Morning – nearby attraction; Afternoon – shopping/local culture; Evening – family dining. Day 4: Morning – final sightseeing; Afternoon – departure.
+
+Example 5 (Heavily Obfuscated):
+Input: "I want to plan a trip to [PHONE_NUMBER]_617-555-0123 for [IP_ADDRESS]_192.168.1.1 with my family."
+Sketch: Day 1: Morning – arrival and accommodation setup; Afternoon – local landmark visit; Evening – family-friendly dining. Day 2: Morning – cultural/historical site tour; Afternoon – recreational activity; Evening – local performance or entertainment.
+
+## MEDICAL CATEGORY EXAMPLES
+
+Example 1 (Clean Input):
+Input: "A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms."
+Sketch: Patient Assessment: Age and gender noted; Symptom Documentation: Neurological symptoms recorded; Recommended Actions: Neurological examination, imaging studies, specialist consultation; Follow-up: Monitor symptom progression, schedule return visit.
+
+Example 2 (Value Obfuscated):
+Input: "A 42-year-old female patient named Robert reports symptoms: focal_neurological_symptoms."
+Sketch: Patient Assessment: Age and gender noted; Symptom Documentation: Neurological symptoms recorded; Recommended Actions: Neurological examination, imaging studies, specialist consultation; Follow-up: Monitor symptom progression, schedule return visit.
+
+Example 3 (Category Obfuscated - Person→Organization):
+Input: "A 28-year-old female patient named Chase Bank reports symptoms: altered_appetite, pain, fever."
+Sketch: Patient Assessment: Age and gender noted; Symptom Documentation: Appetite changes, pain manifestation, fever pattern recorded; Diagnostic Approach: Physical examination, laboratory tests, vital signs monitoring; Treatment Plan: Symptomatic relief, underlying cause investigation; Follow-up: Monitor response to treatment.
+
+Example 4 (Mixed Obfuscation):
+Input: "A [DATE_TIME]_42-year-old patient named [LOCATION]_Paris reports symptoms: altered_appetite, pain, fever."
+Sketch: Patient Assessment: Adult patient presentation noted; Symptom Documentation: Appetite changes, pain symptoms, fever recorded; Diagnostic Approach: Physical examination, laboratory studies, monitoring; Treatment Plan: Symptomatic management, cause investigation; Follow-up: Progress evaluation.
+
+Example 5 (Location Obfuscated):
+Input: "Patient with chest pain, find me a doctor in [ORGANIZATION]_Wells Fargo."
+Sketch: Chief Complaint: Chest pain evaluation needed; Geographic Area: Medical providers in specified area; Recommended Providers: Cardiology specialists, emergency departments, primary care physicians; Urgency Assessment: Immediate vs scheduled consultation based on symptom severity.
+
+## BANKING CATEGORY EXAMPLES
+
+Example 1 (Clean Input):
+Input: "I want to file a dispute regarding a charge of $10 on my Chase card ending in 1234."
+Sketch: Dispute Request: Charge amount and card identification; Documentation Needed: Transaction details, supporting evidence; Process Steps: Initial review, investigation period, provisional credit consideration; Timeline: Standard dispute resolution timeframe, status updates.
+
+Example 2 (Organization Obfuscated):
+Input: "Dear [PERSON]_Alice, I wish to raise a concern regarding a charge of $25 on my account."
+Sketch: Account Inquiry: Charge investigation request; Required Information: Account details, transaction date/amount; Resolution Process: Customer service review, account analysis, corrective action if needed; Communication: Follow-up contact method and timeline.
+
+Example 3 (Value Obfuscated):
+Input: "I want to file a dispute regarding a charge of $10 on my Wells Fargo card ending in 1234."
+Sketch: Dispute Request: Charge amount and card identification; Documentation Needed: Transaction details, supporting evidence; Process Steps: Initial review, investigation period, provisional credit consideration; Timeline: Standard dispute resolution timeframe, status updates.
+
+Example 4 (Category Obfuscated - Organization→Location):
+Input: "I need help with transferring money from my account to another Tokyo."
+Sketch: Transfer Request: Inter-bank money transfer; Required Details: Account verification, recipient information, transfer amount; Process Options: Wire transfer, ACH transfer, online banking; Security Steps: Authentication, transfer limits, confirmation procedures.
+
+Example 5 (Mixed Obfuscation):
+Input: "[PERSON]_Emma here; I want to file a dispute regarding a charge of $10 on my [URL]_https://example.com card."
+Sketch: Dispute Request: Charge amount and card identification; Documentation Needed: Transaction details, supporting evidence; Process Steps: Initial review, investigation period, provisional credit consideration; Timeline: Standard dispute resolution timeframe, status updates.
+
+## COMMON CATEGORY EXAMPLES
+
+Example 1 (Clean Input):
+Input: "Compose an engaging travel blog post about a recent trip to Hawaii."
+Sketch: Blog Structure: Introduction with destination overview; Content Sections: Travel experiences, local attractions, cultural insights, practical tips; Writing Style: Engaging narrative, descriptive language, personal anecdotes; Conclusion: Overall impressions and recommendations.
+
+Example 2 (Value Obfuscated):
+Input: "Compose an engaging travel blog post about a recent trip to Boston."
+Sketch: Blog Structure: Introduction with destination overview; Content Sections: Travel experiences, local attractions, cultural insights, practical tips; Writing Style: Engaging narrative, descriptive language, personal anecdotes; Conclusion: Overall impressions and recommendations.
+
+Example 3 (Category Obfuscated - Location→Person):
+Input: "Draft a professional email seeking feedback on the [PERSON]_Alice."
+Sketch: Email Format: Professional business communication; Content Elements: Subject reference, feedback request, specific areas of interest; Tone: Respectful and collaborative; Action Items: Clear deadline, preferred feedback method, follow-up plan.
+
+Example 4 (Mixed Obfuscation):
+Input: "Compare [CARDINAL]_two popular [ORGANIZATION]_Apple models for a blog post."
+Sketch: Comparison Framework: Feature analysis structure; Key Categories: Performance, specifications, design, value; Evaluation Method: Objective analysis, user experience factors; Conclusion Format: Recommendation based on user needs and preferences.
+
+Example 5 (Heavily Obfuscated):
+Input: "Compose an engaging [WORK_OF_ART]_blog post about a recent [PHONE_NUMBER]_617-555-0123 to [EMAIL_ADDRESS]_user@example.com."
+Sketch: Content Structure: Introduction with topic overview; Content Sections: Main experiences, key insights, practical information; Writing Style: Engaging narrative, descriptive language; Conclusion: Overall impressions and recommendations.
+
+## GENERAL INSTRUCTIONS FOR SKETCH GENERATION
+
+1. Always generate structured outlines, not full content
+2. Use semicolons or bullet points for organization
+3. Include key action items or steps
+4. Maintain consistent format within each category
+5. Focus on intent and structure rather than specific details
+6. **Handle obfuscated entities gracefully**: Treat all entity placeholders as generic references
+7. **Ignore semantic inconsistencies**: If input says "go to Alice" (person name as location), treat as travel destination
+8. **Category obfuscation resilience**: Generate appropriate sketches even when entity categories are mixed up
+9. **Value obfuscation tolerance**: Generate same structure regardless of specific entity values
+10. **Mixed obfuscation handling**: Process inputs with multiple [TYPE]_value patterns normally
+11. Keep sketches concise but comprehensive enough for edge refinement
+12. **Privacy-aware**: Never attempt to "correct" or guess the original entities

@@ -1,0 +1,61 @@
+epsilon,prompt,category,processing_time,energy_consumption,privacy_applied,entities_detected,entities_protected,sketch_quality_score,response_quality_score,privacy_preservation_score,final_response_length
+0.01,I want to plan a trip to Tokyo for 3 days with my family,Tourism,3.8981058597564697,74.0453586268425,True,2,2,8.5,8.5,10.0,647
+0.01,"My summer holiday is coming, I want to go to Paris for traveling",Tourism,3.199096918106079,36.61411173462868,True,2,2,4.5,3.5,10.0,766
+0.01,I would like to spend 4 days exploring New York with 2 family members,Tourism,2.628654956817627,29.66479898571968,True,2,2,5.5,2.5,10.0,552
+0.01,A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms,Medical,2.7479279041290283,31.917600760459905,True,2,0,8.5,6.5,0.0,723
+0.01,My name is Alice and I live in Boston. Find me a doctor.,Medical,2.5377089977264404,33.447425665855405,True,2,2,8.5,3.5,10.0,645
+0.01,"A 42-year-old patient reports symptoms: altered_appetite, pain, fever",Medical,3.0523860454559326,54.88247552394867,False,1,0,8.5,7.5,0.0,807
+0.01,I want to file a dispute regarding a charge of $10 on my Chase card,Banking,2.6116340160369873,38.1303126335144,True,1,1,8.5,6.5,10.0,578
+0.01,"Dear PNC Bank, I wish to raise a concern regarding a charge of $25 on my account",Banking,2.9121248722076416,45.968459386825565,True,1,1,8.5,6.5,10.0,571
+0.01,I need help with transferring money from my account to another bank,Banking,2.6987340450286865,39.56404227733612,False,0,0,8.5,5.5,10.0,547
+0.01,Compose an engaging travel blog post about a recent trip to Hawaii,Common,2.910928726196289,53.57623559832573,False,1,0,8.5,5.5,0.0,826
+0.01,Draft a professional email seeking feedback on the Quarterly Sales Report,Common,2.6988327503204346,39.025576643943786,False,0,0,8.5,4.5,10.0,471
+0.01,Compare two popular smartphone models for a blog post,Common,2.9061450958251953,34.77249391078949,False,0,0,9.0,6.5,10.0,619
+0.1,I want to plan a trip to Tokyo for 3 days with my family,Tourism,2.7562508583068848,30.649933738708498,True,2,2,8.5,8.5,5.0,666
+0.1,"My summer holiday is coming, I want to go to Paris for traveling",Tourism,3.1146349906921387,43.96358441591263,True,2,2,3.5,4.5,10.0,657
+0.1,I would like to spend 4 days exploring New York with 2 family members,Tourism,2.755711793899536,34.79132795333862,True,2,2,7.5,3.5,10.0,551
+0.1,A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms,Medical,2.7475528717041016,31.789570157527923,True,2,0,8.0,6.5,0.0,723
+0.1,My name is Alice and I live in Boston. Find me a doctor.,Medical,2.57804012298584,30.1119291305542,True,2,2,4.5,2.5,10.0,654
+0.1,"A 42-year-old patient reports symptoms: altered_appetite, pain, fever",Medical,2.8412013053894043,33.61180067062378,False,1,0,8.5,7.5,0.0,787
+0.1,I want to file a dispute regarding a charge of $10 on my Chase card,Banking,2.838484048843384,32.160467283725744,True,1,1,8.5,6.5,10.0,578
+0.1,"Dear PNC Bank, I wish to raise a concern regarding a charge of $25 on my account",Banking,2.7755651473999023,32.016556499004366,True,1,1,8.5,5.5,10.0,571
+0.1,I need help with transferring money from my account to another bank,Banking,2.709392786026001,31.700300073623655,False,0,0,8.5,5.5,10.0,561
+0.1,Compose an engaging travel blog post about a recent trip to Hawaii,Common,3.459713935852051,38.403168725967404,False,1,0,8.5,4.5,0.0,816
+0.1,Draft a professional email seeking feedback on the Quarterly Sales Report,Common,3.143590211868286,35.36582171916962,False,0,0,8.5,5.5,10.0,471
+0.1,Compare two popular smartphone models for a blog post,Common,3.195352077484131,36.60312128186225,False,0,0,9.5,6.5,10.0,648
+1.0,I want to plan a trip to Tokyo for 3 days with my family,Tourism,2.612238645553589,30.694193482398987,True,2,2,8.5,8.5,10.0,647
+1.0,"My summer holiday is coming, I want to go to Paris for traveling",Tourism,2.7344398498535156,32.45819439172745,True,2,2,8.5,1.0,5.0,553
+1.0,I would like to spend 4 days exploring New York with 2 family members,Tourism,2.717775821685791,32.165266242027286,True,2,2,5.5,2.0,10.0,550
+1.0,A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms,Medical,2.8135030269622803,33.19976053237915,True,2,0,8.0,6.5,0.0,723
+1.0,My name is Alice and I live in Boston. Find me a doctor.,Medical,3.047637939453125,35.67299835920334,True,2,2,8.0,3.5,10.0,714
+1.0,"A 42-year-old patient reports symptoms: altered_appetite, pain, fever",Medical,3.024165153503418,35.987956857681276,False,1,0,8.5,7.5,0.0,815
+1.0,I want to file a dispute regarding a charge of $10 on my Chase card,Banking,2.975440263748169,37.01489804267884,True,1,1,8.5,6.5,10.0,578
+1.0,"Dear PNC Bank, I wish to raise a concern regarding a charge of $25 on my account",Banking,3.484938144683838,40.07717800140381,True,1,1,8.5,5.5,10.0,571
+1.0,I need help with transferring money from my account to another bank,Banking,4.034250020980835,46.6162438595295,False,0,0,8.5,5.5,10.0,568
+1.0,Compose an engaging travel blog post about a recent trip to Hawaii,Common,3.4961512088775635,39.57686890602112,False,1,0,8.5,4.5,0.0,829
+1.0,Draft a professional email seeking feedback on the Quarterly Sales Report,Common,2.6509127616882324,33.18989343643189,False,0,0,8.5,6.5,10.0,471
+1.0,Compare two popular smartphone models for a blog post,Common,3.2531018257141113,38.64729154586792,False,0,0,8.5,5.5,10.0,542
+10.0,I want to plan a trip to Tokyo for 3 days with my family,Tourism,3.162024974822998,35.984207782745365,True,2,2,9.0,8.5,5.0,711
+10.0,"My summer holiday is coming, I want to go to Paris for traveling",Tourism,3.0288519859313965,33.953890461921695,True,2,2,8.5,8.5,5.0,608
+10.0,I would like to spend 4 days exploring New York with 2 family members,Tourism,2.9234633445739746,32.3631351184845,True,2,2,8.5,5.5,5.0,572
+10.0,A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms,Medical,2.733811855316162,32.04069967269898,True,2,0,8.5,5.5,0.0,723
+10.0,My name is Alice and I live in Boston. Find me a doctor.,Medical,2.9244637489318848,34.11428124189377,True,2,2,8.5,2.5,5.0,645
+10.0,"A 42-year-old patient reports symptoms: altered_appetite, pain, fever",Medical,2.7005198001861572,31.366922402381903,False,1,0,8.5,7.5,0.0,787
+10.0,I want to file a dispute regarding a charge of $10 on my Chase card,Banking,2.933316230773926,33.10283419847489,True,1,1,8.5,6.5,10.0,578
+10.0,"Dear PNC Bank, I wish to raise a concern regarding a charge of $25 on my account",Banking,2.6822400093078613,39.93904364585877,True,1,1,8.5,5.5,10.0,582
+10.0,I need help with transferring money from my account to another bank,Banking,2.7693028450012207,39.50454721927643,False,0,0,8.5,5.5,10.0,583
+10.0,Compose an engaging travel blog post about a recent trip to Hawaii,Common,3.362656831741333,44.92555076599121,False,1,0,8.5,5.5,0.0,818
+10.0,Draft a professional email seeking feedback on the Quarterly Sales Report,Common,2.40752911567688,30.672367439270026,False,0,0,8.5,6.5,10.0,471
+10.0,Compare two popular smartphone models for a blog post,Common,2.526019811630249,31.348379266262054,False,0,0,9.0,5.5,10.0,537
+100.0,I want to plan a trip to Tokyo for 3 days with my family,Tourism,2.801558017730713,31.447892862558366,True,2,2,8.5,8.5,5.0,647
+100.0,"My summer holiday is coming, I want to go to Paris for traveling",Tourism,2.746511220932007,31.241996347904205,True,2,2,7.5,8.5,5.0,431
+100.0,I would like to spend 4 days exploring New York with 2 family members,Tourism,2.6814050674438477,30.51481021404266,True,2,2,8.0,3.5,5.0,489
+100.0,A 28-year-old female patient named Emma reports symptoms: focal_neurological_symptoms,Medical,3.0131118297576904,34.018452470302584,True,2,0,8.0,5.5,0.0,723
+100.0,My name is Alice and I live in Boston. Find me a doctor.,Medical,2.436790943145752,28.86423774838448,True,2,2,9.5,3.5,5.0,626
+100.0,"A 42-year-old patient reports symptoms: altered_appetite, pain, fever",Medical,2.521728754043579,28.849024257659917,False,1,0,8.5,7.5,0.0,787
+100.0,I want to file a dispute regarding a charge of $10 on my Chase card,Banking,2.7637250423431396,31.064741125106817,True,1,1,8.5,6.5,10.0,578
+100.0,"Dear PNC Bank, I wish to raise a concern regarding a charge of $25 on my account",Banking,2.668009042739868,29.721987261772156,True,1,1,8.5,5.5,10.0,571
+100.0,I need help with transferring money from my account to another bank,Banking,2.8203330039978027,33.19570951700211,False,0,0,8.5,6.5,10.0,606
+100.0,Compose an engaging travel blog post about a recent trip to Hawaii,Common,2.7750158309936523,35.74264610290528,False,1,0,8.5,5.5,0.0,808
+100.0,Draft a professional email seeking feedback on the Quarterly Sales Report,Common,2.8234500885009766,60.11195793867112,False,0,0,8.5,5.5,10.0,506
+100.0,Compare two popular smartphone models for a blog post,Common,2.579179048538208,94.81297064781188,False,0,0,9.0,5.5,10.0,585
